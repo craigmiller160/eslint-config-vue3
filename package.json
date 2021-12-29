@@ -11,5 +11,14 @@
   },
   "files": [
     ".eslintrc.js"
-  ]
+  ],
+  "peerDependencies": {
+    "vue": "3.2.26",
+    "eslint": "^8.5.0"
+  },
+  "dependencies": {
+    "@babel/eslint-parser": "^7.16.5",
+    "eslint-plugin-vue": "^8.2.0",
+    "vue-eslint-parser": "^8.0.1"
+  }
 }
